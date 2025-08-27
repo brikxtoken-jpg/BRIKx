@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRIKitt - Fractional Ownership & Tokenization Platform</title>
+    <meta name="description" content="BRIKitt - Invest, Manage, and Resell property fractions with blockchain security.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#">BRIK<span>itt</span></a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#sellers">For Sellers</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#blog">Insights</a></li>
+                <li><a href="#" class="btn btn-outline">Login</a></li>
+                <li><a href="#" class="btn btn-primary">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-fade-in">Own a Holiday Home in Fractions</h1>
+                <p class="animate-fade-in">Invest, Manage, and Resell property fractions with blockchain security.</p>
+                <div class="hero-buttons animate-fade-in">
+                    <a href="#properties" class="btn btn-primary">Browse Properties</a>
+                    <a href="#" class="btn btn-secondary">Start Investing</a>
+                </div>
+            </div>
+            <div class="hero-animation">
+                <div class="blockchain-animation">
+                    <!-- 3D animation will be inserted here via JavaScript/Lottie -->
+                    <lottie-player src="assets/animations/blockchain.json" background="transparent" speed="1" loop autoplay></lottie-player>
+                </div>
+            </div>
+        </div>
+        <div class="hero-particles" id="particles-js"></div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Simple steps to fractional property ownership</p>
+            </div>
+            <div class="steps-container">
+                <div class="step" data-step="1">
+                    <div class="step-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Browse Properties</h3>
+                    <p>Explore our curated collection of premium holiday homes in top destinations.</p>
+                </div>
+                <div class="step" data-step="2">
+                    <div class="step-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>Invest in Fractions</h3>
+                    <p>Purchase BRIKs (tokens) representing ownership in your chosen property.</p>
+                </div>
+                <div class="step" data-step="3">
+                    <div class="step-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Get Rental Yields</h3>
+                    <p>Earn passive income from rental revenue proportional to your ownership.</p>
+                </div>
+                <div class="step" data-step="4">
+                    <div class="step-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3>Resell Anytime</h3>
+                    <p>Trade your BRIKs on our marketplace whenever you want liquidity.</p>
+                </div>
+            </div>
+            <div class="infographic-animation">
+                <lottie-player src="assets/animations/tokenization.json" background="transparent" speed="1" loop autoplay></lottie-player>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section class="properties" id="properties">
+        <div class="container">
+            <div class="section-header">
+                <h2>Premium Properties</h2>
+                <p>Handpicked holiday homes for fractional ownership</p>
+            </div>
+            <div class="property-filters">
+                <div class="filter-group">
+                    <label>Location</label>
+                    <select>
+                        <option value="all">All Locations</option>
+                        <option value="goa">Goa</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="bangalore">Bangalore</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>ROI %</label>
+                    <select>
+                        <option value="all">All Returns</option>
+                        <option value="8-10">8-10%</option>
+                        <option value="10-12">10-12%</option>
+                        <option value="12+">12%+</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Price</label>
+                    <select>
+                        <option value="all">All Prices</option>
+                        <option value="500k-1m">₹5L - ₹10L</option>
+                        <option value="1m-5m">₹10L - ₹50L</option>
+                        <option value="5m+">₹50L+</option>
+                    </select>
+                </div>
+            </div>
+            <div class="property-grid">
+                <!-- Property 1 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="assets/images/property-1.jpg" alt="Luxury Villa in Goa">
+                        <div class="property-tag">Featured</div>
+                    </div>
+                    <div class="property-details">
+                        <h3>Luxury Villa in Goa</h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i> North Goa, Anjuna
+                        </div>
+                        <div class="property-stats">
+                            <div class="stat">
+                                <i class="fas fa-coins"></i>
+                                <span>Starting from ₹5,00,000 per BRIK</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Yield up to 12%</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+                <!-- Property 2 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="assets/images/property-2.jpg" alt="Beachfront Apartment">
+                    </div>
+                    <div class="property-details">
+                        <h3>Beachfront Apartment</h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i> Mumbai, Juhu
+                        </div>
+                        <div class="property-stats">
+                            <div class="stat">
+                                <i class="fas fa-coins"></i>
+                                <span>Starting from ₹8,00,000 per BRIK</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Yield up to 10%</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+                <!-- Property 3 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="assets/images/property-3.jpg" alt="Mountain Retreat">
+                    </div>
+                    <div class="property-details">
+                        <h3>Mountain Retreat</h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i> Shimla, Himachal Pradesh
+                        </div>
+                        <div class="property-stats">
+                            <div class="stat">
+                                <i class="fas fa-coins"></i>
+                                <span>Starting from ₹6,50,000 per BRIK</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Yield up to 9%</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-container">
+                <a href="#" class="btn btn-outline">View All Properties</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Preview Section -->
+    <section class="dashboard-preview" id="dashboard">
+        <div class="container">
+            <div class="section-header">
+                <h2>Investor Dashboard</h2>
+                <p>Track your investments and returns in real-time</p>
+            </div>
+            <div class="dashboard-mockup">
+                <div class="dashboard-screen">
+                    <img src="assets/images/dashboard.jpg" alt="Investor Dashboard Preview">
+                    <div class="dashboard-overlay">
+                        <div class="dashboard-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-wallet"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Portfolio Tracker</h4>
+                                <p>Monitor all your property investments in one place</p>
+                            </div>
+                        </div>
+                        <div class="dashboard-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-file-invoice-dollar"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Digital Ownership Certificates</h4>
+                                <p>Blockchain-secured proof of ownership</p>
+                            </div>
+                        </div>
+                        <div class="dashboard-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Returns Analytics</h4>
+                                <p>Detailed breakdown of rental yields and capital appreciation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seller/Developer Section -->
+    <section class="seller-section" id="sellers">
+        <div class="container">
+            <div class="section-header">
+                <h2>For Property Owners & Developers</h2>
+                <p>Unlock liquidity and reach more investors</p>
+            </div>
+            <div class="seller-content">
+                <div class="seller-text">
+                    <h3>Tokenize Your Property</h3>
+                    <p>Convert your premium holiday home into tradable digital tokens and access a wider pool of investors.</p>
+                    <ul class="seller-benefits">
+                        <li><i class="fas fa-check-circle"></i> Faster liquidity than traditional real estate</li>
+                        <li><i class="fas fa-check-circle"></i> Reach thousands of qualified investors</li>
+                        <li><i class="fas fa-check-circle"></i> Transparent sales process and reporting</li>
+                        <li><i class="fas fa-check-circle"></i> Managed rental and maintenance services</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">List Your Property</a>
+                </div>
+                <div class="seller-dashboard">
+                    <img src="assets/images/seller-dashboard.jpg" alt="Seller Dashboard Preview">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admin/Compliance Section -->
+    <section class="admin-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Secure & Compliant</h2>
+                <p>Built with trust and transparency at its core</p>
+            </div>
+            <div class="compliance-features">
+                <div class="compliance-feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Regulatory Compliance</h3>
+                    <p>All properties and transactions adhere to local and national regulations.</p>
+                </div>
+                <div class="compliance-feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3>Smart Contracts</h3>
+                    <p>Automated, transparent agreements secured by blockchain technology.</p>
+                </div>
+                <div class="compliance-feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure Payments</h3>
+                    <p>End-to-end encrypted transactions with multi-factor authentication.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Vision Section -->
+    <section class="vision-section" id="vision">
+        <div class="container">
+            <div class="section-header">
+                <h2>Future of Property Investment</h2>
+                <p>Blockchain-powered real estate for global investors</p>
+            </div>
+            <div class="vision-content">
+                <div class="vision-animation">
+                    <lottie-player src="assets/animations/future-vision.json" background="transparent" speed="1" loop autoplay></lottie-player>
+                </div>
+                <div class="vision-text">
+                    <h3>Global Expansion</h3>
+                    <p>BRIKitt is expanding to international markets, allowing investors to own fractions of premium properties worldwide.</p>
+                    <h3>Advanced Tokenization</h3>
+                    <p>Our proprietary blockchain technology converts real estate into digital tokens, making ownership transfer seamless and secure.</p>
+                    <h3>Community Governance</h3>
+                    <p>BRIK token holders will participate in property decisions through decentralized voting mechanisms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog/Insights Section -->
+    <section class="blog-section" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2>Insights & Updates</h2>
+                <p>Latest news on fractional ownership and real estate investing</p>
+            </div>
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="assets/images/blog-1.jpg" alt="Fractional Ownership Guide">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-category">Guide</div>
+                        <h3>Complete Guide to Fractional Property Ownership</h3>
+                        <p>Learn how fractional ownership works and why it's revolutionizing real estate investment.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="assets/images/blog-2.jpg" alt="Blockchain in Real Estate">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-category">Technology</div>
+                        <h3>How Blockchain is Transforming Real Estate</h3>
+                        <p>Discover the impact of blockchain technology on property transactions and ownership.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Blog Post 3 -->
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="assets/images/blog-3.jpg" alt="Investment Trends">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-category">Market Trends</div>
+                        <h3>Top Holiday Home Investment Destinations for 2023</h3>
+                        <p>Explore the most promising locations for holiday home investments this year.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-container">
+                <a href="#" class="btn btn-outline">View All Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Footer -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Join the Future of Property Investment Today</h2>
+                <p>Start your journey towards fractional ownership of premium holiday homes.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary">Download App</a>
+                    <a href="#" class="btn btn-secondary">Become an Investor</a>
+                    <a href="#" class="btn btn-outline">List Your Property</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">BRIK<span>itt</span></a>
+                    <p>Fractional ownership & tokenization platform for premium holiday homes.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Glossary</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Compliance</a></li>
+                            <li><a href="#">Security</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Subscribe to Our Newsletter</h4>
+                    <p>Get the latest updates on properties and investment opportunities.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 BRIKitt. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
